@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    padding-bottom: 10vh;
+}
+nav{
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: yellow;
+}
+h1{
+    position: relative;
+    top: 0vh;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+}
+h1:hover{
+    color: aqua;
+}
+h2{
+    font-family: "Turret Road", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+h2:hover{
+    color: aqua;
+}
+p{
+    position: relative;
+    font-family: "Turret Road", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 80vw;
+    margin-left: 10vw;
+    top: 40px;
+    line-height: 25px;
+    text-align: center;
+}
+p:hover{
+    color: aqua;
+}
+p a{
+    color: white;
+    font-size: 35px;
+    font-family:"Turret Road", sans-serif;
+}
+p a:hover{
+    color: yellow;
+}
+.s1{
+    position: relative;
+    background-color: aqua;
+    color: black;
+    animation: shine1 2s infinite;
+}
+.s2{
+    position: relative;
+    background-color: aqua;
+    color: black;
+    animation: shine2 2s infinite;
+}
+@keyframes shine1{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes shine2{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

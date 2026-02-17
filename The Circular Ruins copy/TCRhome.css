@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+nav{
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+nav a:hover{
+    color: yellow;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+h1{
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+}
+
+h1:hover{
+    color: aqua;
+}
+
+.R1{
+    position: relative;
+    left: 34vw;
+    top: 12vh;
+}
+.R2{
+    position: relative;
+    left: 62vw;
+    top: 23vh;
+}
+.R3{
+    position: relative;
+    left: 67vw;
+    top: 60vh;
+}
+.R4{
+    position: absolute;
+    left: 15vw;
+    top: 54vh;
+}
+.R5{
+    position: absolute;
+    left: 20vw;
+    top: 19vh;
+}
+.R6{
+    position: absolute;
+    left: 75vw;
+    top: 20vh;
+}
+.R7{
+    position: absolute;
+    left: 39vw;
+    top: 50vh;
+}
+.R8{
+    position: absolute;
+    left: 23vw;
+    top: 75vh;
+}
