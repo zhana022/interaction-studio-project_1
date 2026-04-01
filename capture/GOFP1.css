@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+}
+nav{
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: yellow;
+}
+h1{
+    position: relative;
+    top: 0vh;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+}
+h1:hover{
+    color: aqua;
+}
+h2{
+    font-family: "Turret Road", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+h2:hover{
+    color: aqua;
+}
+p{
+    position: relative;
+    font-family: "Turret Road", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 80vw;
+    margin-left: 10vw;
+    top: 40px;
+    line-height: 25px;
+}
+p:hover{
+    color: aqua;
+    background-color: black;
+}
+.telephone{
+    position: absolute;
+    font-size: 25px;
+    top: 50vh;
+    left: 60vw;
+}
+.telephone a{
+    text-decoration: none;
+    color: white;
+}
+.telephone a:hover{
+    color: yellow;
+}
+@media only screen and (max-width: 1000px) {
+    body{
+        overflow-y: scroll;
+    }
+    .telephone{
+        font-size: 25px;
+        position: absolute;
+        top: 140vh;
+        left: 10vw;
+    }
+
+}

@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    color: white;
+    padding-bottom: 200px;
+}
+nav{
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: yellow;
+}
+h1{
+    position: relative;
+    top: 0vh;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+}
+h1:hover{
+    color: aqua;
+}
+h2{
+    font-family: "Turret Road", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+h2:hover{
+    color: aqua;
+}
+p{
+     position: relative;
+    font-family: "Turret Road", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 80vw;
+    margin-left: 10vw;
+    top: 40px;
+    line-height: 25px;
+    text-align: center;
+    line-height: 5vh;
+}
+p a{
+    color: white;
+}
+p a:hover{
+    color: yellow;
+}
+p:hover{
+    color: aqua;
+    background-color: black;
+}
+pre{
+    font-size: 15px;
+    position: relative;
+    top: 15vh;
+    left: 20vw;
+    animation: floating 10s ease-in-out infinite;
+}
+pre a{
+    color: white;
+    text-decoration: none;
+}
+pre a:hover{
+    color: yellow;
+}
+h3 a{
+    position: absolute;
+    left: 65vw;
+    color: white;
+    font-size: 30px;
+    top: 110vh;
+    background-color: blue;
+    padding: 7px;
+}
+h3 a:hover{
+    color: yellow;
+}
+
+@media (max-width: 1000px) {
+    pre{
+        position: relative;
+        top: 20vh;
+        left: 15vw;
+    }
+    h3 a{
+        position: relative;
+        top: -30vh;
+        left: 40vw;
+        font-size: 20px;
+    }
+}
+
+@keyframes floating {
+    0% { transform: translatey(0); }
+    25% { transform: translatey(-10vh) translateX(10vw); }
+    50% { transform: translatey(-5vh) translateX(10vw); }
+    100% { transform: translatey(0); }
+}

@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: black;
+    overflow-y: hidden;
+}
+
+h1 a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -15vh;
+}
+h1 a:hover{
+    background-color: yellow;
+}
+
+h1{
+    position: relative;
+    left: 5vw;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.By{
+    font-size: 200px;
+    position: relative;
+}
+.name a{
+    font-size: 160px;
+}
+h3 a{
+    color: white;
+    text-decoration: none;
+    font-family: "Turret Road", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+h3{
+    position: relative;
+    top: -100vh;
+    right: 5vw;
+    text-align: right;
+}
+h3 a:hover{
+    background-color:yellow;
+}
+
+@media only screen and (max-width: 1000px) {
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        margin-bottom: 20vh;
+    }
+    .By{
+        position: relative;
+        font-size: 150px;
+        top: 0vh;
+    }
+    .name a{
+        position: absolute;
+        top: -12vh;
+        font-size: 100px;
+        width: 80vw;
+    }
+    h3{
+        position: relative;
+        font-size: 25px;
+        top: 40vh;
+        left: -10vw;
+        line-height: 3vh;
+    }
+
+}

@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+    color: white;
+    padding-bottom: 200px;
+}
+nav{
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: yellow;
+}
+h1{
+    position: relative;
+    top: 0vh;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+}
+h1:hover{
+    color: aqua;
+}
+h2{
+    font-family: "Turret Road", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+h2:hover{
+    color: aqua;
+}
+p{
+     position: relative;
+    font-family: "Turret Road", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 80vw;
+    margin-left: 10vw;
+    top: 40px;
+    line-height: 25px;
+    text-align: center;
+    line-height: 5vh;
+}
+p:hover{
+    color: aqua;
+    background-color: black;
+}
+p a{
+    color: white;
+    font-size: 35px;
+}
+p a:hover{
+    color: yellow;
+}
+pre a{
+    position:relative;
+    top: 10vh;
+    left: 30vw;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+pre a:hover{
+    color: yellow;
+}
+.advice{
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  background-color: aqua;
+  color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+   body{
+       padding-bottom: 20px;
+       overflow-y: scroll;
+   }
+   pre a{
+       font-size: 13px;
+       position: relative;
+       left: 10vw;
+       top: 20px;
+       margin-bottom: 5px;
+   }
+   .advice{
+       font-size: 18px;
+       position: relative;
+       left: 0vw;
+       top: 60px;
+       margin-bottom: 40px;
+   }
+}
