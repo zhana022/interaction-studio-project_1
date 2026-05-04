@@ -1,5 +1,105 @@
-<h1>Project 1</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&family=Fredericka+the+Great&family=GFS+Didot&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Macondo&family=Moon+Dance&family=Playwrite+DE+SAS:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&family=Tourney:ital,wght@0,100..900;1,100..900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        
+    <h1 class="By"><b>By</b></h1>
+    <h1 class="name"><b><a href="https://en.wikipedia.org/wiki/Jorge_Luis_Borges">Jorge Luis Borges</a></b></h1>
 
-<a href="capture/home.html">Capture</a><br>
-<a href="The%20Circular%20Ruins%20copy/">Circular Ruins</a><br>
-<a href="sand%20copy/">Sand</a>
+    <h3><a href="GOFP.html">Garden of Forking Paths</a></h3>
+<br>
+    <h3><a href="../The Circular Ruins/TCR.html">The Circular Ruins</a></h3>
+<br>
+    <h3><a href="../sand/sand.html">The Book of Sand</a></h3>
+
+    
+</body>
+</html>
+
+<style>
+  body{
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: black;
+    overflow-y: hidden;
+}
+
+h1 a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -15vh;
+}
+h1 a:hover{
+    background-color: yellow;
+}
+
+h1{
+    position: relative;
+    left: 5vw;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.By{
+    font-size: 200px;
+    position: relative;
+}
+.name a{
+    font-size: 160px;
+}
+h3 a{
+    color: white;
+    text-decoration: none;
+    font-family: "Turret Road", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+h3{
+    position: relative;
+    top: -100vh;
+    right: 5vw;
+    text-align: right;
+}
+h3 a:hover{
+    background-color:yellow;
+}
+
+@media only screen and (max-width: 1000px) {
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        margin-bottom: 20vh;
+    }
+    .By{
+        position: relative;
+        font-size: 150px;
+        top: 0vh;
+    }
+    .name a{
+        position: absolute;
+        top: -12vh;
+        font-size: 100px;
+        width: 80vw;
+    }
+    h3{
+        position: relative;
+        font-size: 25px;
+        top: 40vh;
+        left: -10vw;
+        line-height: 3vh;
+    }
+
+}
+</style>
