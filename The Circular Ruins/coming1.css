@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+nav{
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: yellow;
+}
+h1{
+    position: relative;
+    top: 0vh;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+}
+h1:hover{
+    color: aqua;
+}
+h2{
+    font-family: "Turret Road", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+h2:hover{
+    color: aqua;
+}
+p{
+    position: relative;
+    font-family: "Turret Road", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 80vw;
+    margin-left: 10vw;
+    top: 40px;
+    line-height: 25px;
+    text-align: center;
+}
+p:hover{
+    color: aqua;
+    background-color: black;
+}
+p a{
+    color: white;
+    font-size: 35px;
+}
+p a:hover{
+    color: yellow;
+}
+img{
+    position: relative;
+    width: 30vw;
+    height: auto;
+    left: 10vw;
+    padding-top: 5vw;
+}
+img:hover{
+    transform: scale(1.1);
+}
+pre:hover{
+    color: aqua;
+}
+.foot{
+    position:absolute;
+    top: 290vh;
+    font-size: 15px;
+    left: 60vw;
+}
+.foot:hover{
+    color: aqua;
+}
+.sculp{
+    position: absolute;
+    top: 230vh;
+
+}
+.sculp a{
+    color: white;
+    text-decoration: none;
+}
+.sculp a:hover{
+    color: yellow;
+}
+.leaves{
+    position: absolute;
+    top: 270vh;
+    left: 40vw;
+    font-size: 20px;
+}
+
+@media (max-width:600px){
+    .foot{
+        font-size: 10px;
+        position: absolute;
+        top: 340vh;
+        left: 70vw;
+    }
+    .sculp{
+        font-size:15px;
+        position: absolute;
+        left: -50vw;
+        top:270vh;
+    }
+    .leaves{
+        opacity: 0;
+}
+img{
+    position: relative;
+    width: 40vw;
+    left: 10vw;
+}
+}
